@@ -1,4 +1,6 @@
-﻿Shader "Unlit/Flag_Unlit"
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
+Shader "Unlit/Flag_Unlit"
 {
 	  Properties
     {
