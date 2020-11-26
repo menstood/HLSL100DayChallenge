@@ -41,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 10, y: 10}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -60,30 +60,33 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amp: 0.1
+    - _Amp: 0.2
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Frequency: 1.5
+    - _Frequency: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.8
+    - _Glossiness: 0.9
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
-    - _NormalPower: 0.92
-    - _NormalSpeedX: -1
-    - _NormalSpeedY: -1
+    - _NormalPower: 1.42
+    - _NormalSpeedX: -10
+    - _NormalSpeedY: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Power: 1.62
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
-    - _SpeedX: 1
-    - _SpeedY: 1
+    - _Speed: 2
+    - _SpeedX: 0
+    - _SpeedY: 0
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5801887, g: 0.8664236, b: 1, a: 0.92941177}
+    - _Color: {r: 0.028034903, g: 0.69014895, b: 0.8490566, a: 0}
+    - _DeepColor: {r: 0.10980393, g: 0.16078432, b: 0.15294118, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
